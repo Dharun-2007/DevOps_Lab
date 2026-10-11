@@ -6,7 +6,7 @@ app = FastAPI(title="DevOps Lab")
 def home():
     return {
         "status": "success", 
-        "message": "DevOps Pipeline Live"
+        "message": "DevOps Pipeline is Live"
     }
 
 @app.get("/health")
