@@ -8,7 +8,7 @@ def test_home():
     assert response.status_code == 200
     assert response.json() == {
         "status": "success", 
-        "message": "DevOps Pipeline is Live"
+        "message": "DevOps Pipeline"
     }
 
 def test_health():
